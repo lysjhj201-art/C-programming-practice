@@ -19,7 +19,7 @@ void main()
     for(i=0; i<6;){
         num = getNumber();  // 로또 숫자를 1개 뽑는다.
         
-        for(k=0; k<6; k++)  // 다른 숫자가 6개 뽑힐 때까지 반복한다.()
+        for(k=0; k<6; k++)  // 다른 숫자가 6개 뽑힐 때까지 반복한다.
             if(lotto[k] == num)
                 dup = 'Y';
 
@@ -30,7 +30,7 @@ void main()
     }
 
     printf("추첨된 로또 번호 ==> ");
-    for(i=0; i<6; i++){
+    for(i=0; i<6; i++){  // 뽑힌 로또 숫자 6개를 출력한다.
         printf("%d", lotto[i]);
     }
 

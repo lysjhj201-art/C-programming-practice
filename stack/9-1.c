@@ -1,4 +1,4 @@
-#include <stdio.h> // 스택 구현 예1
+#include <stdio.h> // 스택 구현 예1 
 
 void main()
 {
